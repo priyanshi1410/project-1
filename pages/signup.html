@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/sign-up.css">
+    <link rel="stylesheet" href="/style/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="logo">
+                    <div>logo</div>
+                </div>
+                <nav>
+                    <ul class="row">
+                        <li><a href="/index.html">home</a></li>
+                        <li><a href="/pages/product.html">product</a></li>
+                        <li><a href="/pages/cart.html">cart</a></li>
+                        <li><a href="/pages/login.html">login</a></li>
+                        <li><a href="/pages/signup.html">signup</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- sign-up section -->
+    <div class="main-box">
+        <form class="form">
+            <h1>sign-up form</h1>
+            <div class="name">
+                <label for="">Your name</label>
+                <input type="text" placeholder="full name" id="name">
+                <p style="color: red;" id="n_err"></p>
+            </div>
+            <div class="email">
+                <label for="">E-mail</label>
+                <input type="email" placeholder="Enter youe email" id="email">
+                <p style="color: red;" id="e_err"></p>
+            </div>
+            <div class="password">
+                <label for="">password</label>
+                <input type="text" placeholder="password" id="password">
+                <p style="color: red;" id="p_err"></p>
+            </div>
+            <input type="submit" class="button" value="sign-up">
+        </form>
+    </div>
+</body>
+<script src="/js/signup.js"></script>
+</html>
