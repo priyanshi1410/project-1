@@ -1,0 +1,90 @@
+.mt-50{
+    margin-top: 50px;
+}
+
+#parent-box{
+    display: flex;
+}
+#box-1{
+    border: 2px solid  rgba(95, 158, 160, 0.293);
+    height: 100vh;
+    width: 20%;
+}
+#box-2{
+    width: 80%;
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   height: 100vh;
+   overflow: scroll;
+   gap: 15px;
+   padding-left: 20px;
+   
+}
+#box-2 div{
+    border: 2px solid rgba(95, 158, 160, 0.293);
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s;
+}
+#box-2 div:hover{
+    box-shadow:  0 16px 32px 0 rgba(7, 28, 31, 0.1);
+}
+#box-2 div img{
+    height: 170px;
+    width: 150px;
+    margin: auto;
+    display: block;
+}
+#box-2 div h3{
+    padding-top: 20px;
+    font-size: 18px;
+    color: #071c1f;
+}
+#box-2 div h4{
+    font-size: 19px;
+    color: #666666;
+    padding-top: 13px;
+    font-weight:500;
+}
+#box-2 div p{
+  padding-top: 9px;
+  font-size: 20px;
+  font-weight: 700;
+  color: cadetblue;
+}
+#box-2 div span{
+    padding-top: 7px !important;
+    font-size: 18px;
+    display: block;
+}
+#box-2 div button{
+    margin-top: 13px;
+    margin-left: 10px;
+    padding: 13px 35px;
+    font-size: 17px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+}
+#box-1 button{
+    display: block;
+    margin:35px auto;
+    padding: 17px 35px;
+    font-size: 17px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+}
+#box-1 input{
+    margin:19px auto;
+    display: block;
+    padding: 12px;
+    outline: none;
+    border: 1px solid rgba(95, 158, 160, 0.488);
+}
+#box-1 #search{
+    position: absolute;
+    top: 110px;
+    left:246px;
+    padding: 11px 10px;
+}

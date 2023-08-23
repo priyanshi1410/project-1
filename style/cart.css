@@ -1,0 +1,131 @@
+#box-3{
+    margin-top: 50px;
+}
+.mt-50{
+    margin-top: 70px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+#box-3 div{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border-bottom: 2px solid #e1e1e1;
+    padding: 30px 0px;
+}
+.border-bottom{
+   border-bottom: 2px solid #e1e1e1;
+   
+}
+#item{
+    width: 35%;
+    padding-bottom: 28px;
+    font-size: 23px;
+}
+#price, #product, #Quantity , #ratting ,  #Total{
+    width: 13%;
+    font-size: 23px;
+    padding-left: 30px;
+}
+#box-3 img{
+    width: 73px;
+}
+#box-3 h3{
+    margin-left: -85px;
+    font-size: 18px;
+    margin-top: 13px;
+}
+#box-3 h4{
+    margin-left: 45px;
+    width: 99%;
+    font-size: 18px;
+    color: cadetblue;
+    margin-top: 13px;
+}
+#box-3 p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 13px;
+
+}
+#Quantity{
+    padding-left: 40px;
+}
+#box-3 span{
+    font-size: 21px;
+}
+#box-3 button{
+    width: 25px;
+    height: 25px;
+    margin-left: -20px;
+}
+#ratting{
+    padding-left: 40px;
+}
+#box-3 span{
+    margin-left: -49px;
+     margin-top: 13px;
+
+}
+#Total{
+    padding-left: 40px;
+}
+#box-3 h2{
+    position: absolute;
+    right:242px;
+    font-size: 19px;
+    color: cadetblue;
+    margin-top: 13px;
+}
+#box-3 h5{
+   
+    font-size: 22px;
+    font-weight: 600;
+    color: cadetblue;
+    display: inline-block;
+    margin-top: 13px;
+}
+.justify-content{
+    justify-content: space-between;
+}
+#cup{
+    width: 50%;
+    margin-bottom: 30px;
+}
+#cup h3, #subtotal h3{
+    padding-bottom: 22px;
+}
+#cup input{
+    padding: 15px 22px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 2px solid #e1e1e1;
+}
+#cup button, #subtotal button{
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    padding: 13px 29px;
+    font-size: 17px;
+    border-radius: 3px;
+}
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 2px solid #e1e1e1;
+    padding: 30px;
+}
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#subtotal table td{
+    width: 50%;
+    border: 2px solid #e1e1e1;
+    padding: 10px;
+    font-size: 15px;
+    padding: 14px 14px;
+    letter-spacing: 0.7px;
+}

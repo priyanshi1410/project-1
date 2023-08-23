@@ -4,10 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/style/cart.css">
     <link rel="stylesheet" href="/style/index.css">
 </head>
 <body>
     <div id="navbar"></div>
+
+    <div class="container">
+       
+        <div class="row mt-50 border-bottom">
+            <h3 id="item">Item</h3>
+            <h3 id="price">Price</h3>
+            <h3 id="product">Product</h3>
+            <h3 id="Quantity">Quantity</h3>
+            <h3 id="ratting">Ratting</h3>
+            <h3 id="Total">Total</h3>
+        </div>
+        <div id="box-3"></div>
+    </div>
+
+    <section class="mt-100">
+        <div class="container">
+           <div class="row justify-content">
+            <div id="cup">
+                <h3>Apply coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter your coupon">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+            <div id="subtotal">
+                <h3>Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td>Cart subtotal</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>0</strong></td>
+                    </tr>
+                </table>
+                <button>Proceed to checkout</button>
+            </div>
+           </div>
+        </div>
+    </section>
 </body>
 
 <script type="module" src="/js/cart.js"></script>
