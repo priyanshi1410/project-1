@@ -40,6 +40,7 @@ const signupdata = (e) => {
       .then((res) => res.json())
       .then((data) => {
         if (data.length > 0) {
+          localStorage.setItem("loggedIn",true);
           alert("user already exists");
           setTimeout(() => {
             window.location.href = "/pages/login.html";
